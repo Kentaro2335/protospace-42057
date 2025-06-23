@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: protospace
+    env: ruby
+    plan: free
+    buildCommand: "bundle install && bundle exec rake db:migrate"
+    startCommand: "bundle exec puma -C config/puma.rb"
