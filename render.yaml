@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: protospace
-    env: ruby
-    plan: free
-    buildCommand: "./bin/render-build.sh"
-    startCommand: "bundle exec puma -C config/puma.rb"

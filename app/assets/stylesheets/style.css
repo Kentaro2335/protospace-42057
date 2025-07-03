@@ -89,6 +89,7 @@ a {
 
 .form__text {
   width: 50%;
+  margin: 0 auto;
 }
 
 .field{
@@ -243,6 +244,7 @@ a {
   border-collapse: collapse;
   margin-bottom: 32px;
   width: 50%;
+  margin: 0 auto;
 }
 .table__col1{
   text-align: left;
