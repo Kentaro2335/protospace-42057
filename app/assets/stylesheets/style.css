@@ -240,11 +240,11 @@ a {
 .user__wrapper{
   min-height: calc(100vh - 161px);
 }
+
 .table{
   border-collapse: collapse;
   margin-bottom: 32px;
   width: 50%;
-  margin: 0 auto;
 }
 .table__col1{
   text-align: left;
@@ -261,6 +261,7 @@ a {
   border-collapse: collapse;
   width: 70%;
   padding: 16px 8px;
+}
 }
 .user__card {
   display: flex;
